@@ -1,0 +1,39 @@
+.gallery {
+    padding: 20px;
+    border: 1px solid #cccccc;
+    width: 500px;
+    margin: 10px auto;
+    height: 500px;
+}
+
+.big {
+    background-image: url("/JQuery/IconGallery/img/loader.gif");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 500px;
+    height: 281px;
+}
+
+.small {
+    margin-top: 150px;
+    margin-left: 33px;
+}
+
+.small a img {
+    border: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.button:hover {
+    cursor: pointer;
+}
